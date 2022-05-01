@@ -4,41 +4,49 @@
     margin: 0;
 }
 
+/* HEADER / NAV BAR STYLES START */
+
 .header {
-    padding: 20px;
+    padding: 20px 35px;
     background-color: black;
-    color: white;
+    display: flex;
+    justify-content: space-between;
 }
 
 .header h1 {
-    display: inline-block;
-    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
+    color: white;
 }
 
-.header h1 .seo {
-    color: #d9dcd6;
+header a {
+    text-decoration: underline;
+    color: white;
 }
 
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
-    float: right;
     font-size: 20px;
 }
 
-.header nav ul {
-    list-style-type: none;
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
 }
 
-.header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 1.55vw;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: underline;
-}
+/* HEADER / NAVBAR STYLES END */
+
 
 .hero {
     height: 100px;
@@ -56,35 +64,78 @@ a {
 .about-me {
     margin-bottom: 20px;
     padding: 50px;
-    height: 300px;
+    height: 200px;
     background-color: black;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     color: white;
+}
+
+.about-me h2 {
+    font-size: 30px;
+    margin: 0;
+}
+
+.about-me p {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: center;
 }
 
 .work {
     margin-bottom: 20px;
     padding: 50px;
-    height: 300px;
+    height: 200px;
     background-color: black;
     color: white;
 }
 
 
+
+
+/* FOOTER STYLES START */
 .footer {
-    padding: 30px;
-    clear: both;
-    text-align: center;
+    padding: 20px 35px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .footer h2 {
-    font-size: 50px;
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
+    color: white;
 }
 
-.footer ul {
-    list-style-type: none;
+.footer a {
+    text-decoration: underline;
+    color: white;
 }
 
-.footer ul li {
-    display: inline-block;
-    margin-left: 25px;
+.footer div {
+    padding-top: 15px;
+    margin-right: 20px;
+    font-size: 20px;
 }
+
+.footer div ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.footer div ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+}
+
+
+
+/* END FOOTER STYLES */
