@@ -63,25 +63,35 @@ header nav ul li a {
 
 .about-me {
     margin-bottom: 20px;
-    padding: 50px;
     height: 200px;
     background-color: black;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
     color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
+.title-div {
+    width: 20%;
+    text-align: right;
+    margin: 3.5%;
+    color: grey;
+}
+
+.content-div {
+    width: 60%;
+    margin: 3.5%;
+}
+
+
+
 .about-me h2 {
-    font-size: 30px;
-    margin: 0;
+    font-size: 50px;
 }
 
 .about-me p {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: right;
-    align-items: center;
+    color: white;
+    font-size: 15px;
 }
 
 .work {
