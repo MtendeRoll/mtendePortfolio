@@ -54,8 +54,8 @@ header nav ul li a {
 
 
 .hero {
-    /* background-image: url('./gifs/Gears.gif'); */
-    background-size: cover;
+    background-image: url('./gifs/Gears.gif');
+    background-size: auto; 
     background-position: center;
     display: flex;
     justify-content: center;
