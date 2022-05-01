@@ -4,6 +4,11 @@
     margin: 0;
 }
 
+body {
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+
 /* HEADER / NAV BAR STYLES START */
 
 .header {
@@ -49,6 +54,12 @@ header nav ul li a {
 
 
 .hero {
+    /* background-image: url('./gifs/Gears.gif'); */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     height: 100px;
     width: 100%;
     margin-bottom: 0;
@@ -59,13 +70,11 @@ header nav ul li a {
     text-align: right;
     margin-top: 100px;
     margin-bottom: 0;
+    color: black;
 }
 
 .about-me {
-    margin-bottom: 20px;
-    height: 200px;
-    background-color: black;
-    color: white;
+    color: black;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -73,14 +82,15 @@ header nav ul li a {
 
 .title-div {
     width: 20%;
-    text-align: right;
     margin: 3.5%;
     color: grey;
+    display: flex;
 }
 
 .content-div {
     width: 60%;
     margin: 3.5%;
+    display: flex;
 }
 
 
@@ -90,17 +100,10 @@ header nav ul li a {
 }
 
 .about-me p {
-    color: white;
+    color: black;
     font-size: 15px;
 }
 
-.work {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 200px;
-    background-color: black;
-    color: white;
-}
 
 
 
