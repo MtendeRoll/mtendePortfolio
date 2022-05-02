@@ -59,7 +59,7 @@ header nav ul {
 
 header nav ul li a {
     padding: 10px 15px;
-    font-weight: lighter;
+    font-weight: bolder;
     font-size: 1.55vw;
 }
 
@@ -117,7 +117,7 @@ footer div ul li a {
 
 /* STYLE ALL SECTION TAGS */
 section {
-    padding: 80px;
+    padding: 65px;
 }
 
 /* HERO STYLES START */
@@ -170,7 +170,7 @@ section {
 /* SECTION TITLE STYLES END */
 
 /* ABOUT ME STYLES */
-.intro p {
+.about p {
     line-height: 1.7;
     color: var(--tertiary-color);
     width: 80%;
@@ -182,46 +182,52 @@ section {
 /* ABOUT ME STYLES END */
 
 /* FEATURE WORK STYLES */
-.steps {
+.work {
     background: var(--tertiary-color);
 }
 
-.step {
+.feature {
     margin: 50px auto;
     padding-bottom: 50px;
-    width: 80%;
+    width: 50%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 }
 
-.step h3 {
+.feature h3 {
     color: var(--secondary-color);
     font-size: 30px;
     flex: 1 30%;
 }
 
-.step-info {
+.feature-info {
     flex: 2 70%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    opacity: 0.2;
+    background-color: grey;
 }
 
-.step-img {
+.feature-info:hover {
+    opacity: 1;
+}
+
+.feature-img {
     flex: 1 12%;
     margin-right: 20px;
 }
 
-.step-img img {
+.feature-img img {
     max-width: 100%;
 }
 
 /* FEATURE WORK STYLES END */
 
 /* OTHER WORK STYLES */
-.trainers {
+.projects {
     width: 100%;
     margin: 0 auto;
     display: flex;
@@ -229,23 +235,29 @@ section {
     justify-content: space-around;
 }
 
-.trainer {
+.project {
     margin: 20px;
     flex: 1;
     background: var(--secondary-color);
     color: var(--primary-color);
+    opacity: 0.2;
+    background-color: grey;
 }
 
-.trainer img {
+.project:hover {
+    opacity: 1;
+}
+
+.project img {
     width: 100%;
 }
 
-.trainer-bio {
+.project-bio {
     padding: 25px;
     line-height: 1.3;
 }
 
-.trainer-bio h3 {
+.project-bio h3 {
     font-size: 28px;
 }
 
@@ -297,17 +309,17 @@ section {
         width: 80%;
     }
 
-    
-    .step-info {
+
+    .feature-info {
         text-align: center;
         justify-content: center;
     }
 
-    .step-img {
+    .feature-img {
         flex: 0 100%;
     }
 
-    .trainer {
+    .project {
         flex: 0 50%;
     }
 
@@ -334,25 +346,25 @@ section {
         padding: 30px 15px;
     }
 
-    .step h3 {
+    .feature h3 {
         flex: 1 100%;
         text-align: center;
     }
 
-    .step {
+    .feature {
         flex: 0 80%;
     }
 
-    .step-img img {
+    .feature-img img {
         margin: 10%;
     }
 
-    .step-info {
+    .feature-info {
         text-align: center;
         justify-content: center;
     }
 
-    .trainer {
+    .project {
         flex: 0 50%;
     }
 
@@ -393,7 +405,7 @@ section {
         width: 80%;
     }
 
-    .trainer {
+    .project {
         flex: 0 50%;
     }
 
