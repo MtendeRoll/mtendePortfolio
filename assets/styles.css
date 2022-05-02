@@ -7,7 +7,7 @@
 body {
     color: white;
     font-family: Helvetica, Arial, sans-serif;
-  }
+}
 
 /* HEADER / NAV BAR STYLES START */
 
@@ -52,27 +52,39 @@ header nav ul li a {
 
 /* HEADER / NAVBAR STYLES END */
 
+/* STYLE ALL SECTION TAGS */
+section {
+    padding: 50px;
+}
 
+/* HERO STYLES START */
 .hero {
-    background-image: url('./gifs/Gears.gif');
-    background-size: auto; 
+    background-image: url('./images/earth-in-space.jpg');
+    background-size: cover;
     background-position: center;
     display: flex;
-    justify-content: center;
+    justify-content: right;
     flex-wrap: wrap;
-    height: 100px;
-    width: 100%;
-    margin-bottom: 0;
+    height: 20vw;
+}
+
+.hero-text {
+    text-align: right;
+    margin-top: 12%;
+    margin-right: 5%;
+    color: #fff;
 }
 
 .hero h2 {
     font-size: 30px;
     text-align: right;
-    margin-top: 100px;
-    margin-bottom: 0;
-    color: black;
+    color: white;
 }
 
+/* HERO STYLES END */
+
+
+/* about me styles */
 .about-me {
     color: black;
     display: flex;
@@ -85,6 +97,8 @@ header nav ul li a {
     margin: 3.5%;
     color: grey;
     display: flex;
+    border-right: 5px solid black;
+
 }
 
 .content-div {
@@ -104,8 +118,54 @@ header nav ul li a {
     font-size: 15px;
 }
 
+/* end of about me styles */
 
+/* work styles */
 
+/* .work {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.work h2 {
+    color: #024e76;
+    font-size: 50px;
+    flex: 1 30%;
+    border-right: 5px solid black;
+}
+
+.work-info {
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.work-img {
+    flex: 1 12%;
+    margin-right: 20px;
+}
+
+.work-img img {
+    max-width: 100%;
+}
+
+.work-text {
+    flex: 12;
+}
+
+.work-text h3 {
+    font-size: 26px;
+    line-height: 1.5;
+    color: #024e76;
+} */
+
+/* END WORK STYLES */
 
 
 /* FOOTER STYLES START */
@@ -131,7 +191,6 @@ header nav ul li a {
 
 .footer div {
     padding-top: 15px;
-    margin-right: 20px;
     font-size: 20px;
 }
 
