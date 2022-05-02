@@ -29,7 +29,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 The following animation shows the web application's appearance and functionality:
 
-![portfolio demo](./assets/images/02-advanced-css-homework-demo.gif)
+![portfolio demo](./assets/gifs/02-advanced-css-homework-demo.gif)
 
 ## How to Complete the Challenge
 
@@ -46,6 +46,9 @@ Follow these steps to complete the challenge:
 ## How to Submit the Challenge
 You are required to submit BOTH of the following for review:
 
-* The URL of the deployed application.
+* The URL of the deployed application:
+[Mtende Portfolio](https://mtenderoll.github.io/mtendePortfolio/)
 
-* The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
+
+* The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project:
+[Mtende Github Repository](https://github.com/MtendeRoll/mtendePortfolio)
